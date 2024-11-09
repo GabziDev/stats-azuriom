@@ -11,6 +11,6 @@ class StatsAzuriomHomeController extends Controller
      */
     public function index()
     {
-        return view('stats-azuriom::index');
+        return view('stats::index');
     }
 }
