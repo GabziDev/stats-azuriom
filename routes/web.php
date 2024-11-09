@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/classement', [StatsAzuriomHomeController::class, 'index']);
+Route::get('/', [StatsAzuriomHomeController::class, 'index']);
